@@ -1,8 +1,8 @@
-# 🐾 nekoQL
+# nekoQL
 
 A cute neko-themed public API provider with 50 endpoints. No authentication required, just pure API goodness!
 
-## ✨ Features
+## Features
 
 - **50+ Endpoints** across 5 categories
 - **Multiple Response Formats**: JSON, YAML, TOML
@@ -12,7 +12,7 @@ A cute neko-themed public API provider with 50 endpoints. No authentication requ
 - **React Frontend** with TailwindCSS
 - **Modular Architecture** - easy to extend
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -23,7 +23,7 @@ A cute neko-themed public API provider with 50 endpoints. No authentication requ
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/your-username/nekoql.git
+   git clone https://github.com/RealZppqr/nekoql.git
    cd nekoql
    ```
 
@@ -41,7 +41,7 @@ This will start:
 - Backend API on `http://localhost:3001`
 - Frontend on `http://localhost:3000`
 
-## 📚 API Usage
+## API Usage
 
 ### Basic Usage
 
@@ -87,9 +87,9 @@ curl https://api.nekoql.com/api/8ball?response=toml
 }
 ```
 
-## 🎯 Endpoint Categories
+## Endpoint Categories
 
-### 🎲 Fun & Games
+### Fun & Games
 - `/api/8ball` - Random 8-ball response
 - `/api/roll` - Dice roller
 - `/api/flip` - Coin flip
@@ -101,7 +101,7 @@ curl https://api.nekoql.com/api/8ball?response=toml
 - `/api/showerthought` - Shower thought
 - `/api/quote` - Random quote
 
-### 🐱 Animals
+### Animals
 - `/api/cat` - Random cat image
 - `/api/catfact` - Random cat fact
 - `/api/dog` - Random dog image
@@ -113,7 +113,7 @@ curl https://api.nekoql.com/api/8ball?response=toml
 - `/api/animalfact` - Random mixed fact
 - `/api/neko` - Anime neko image
 
-### ⚡ Utility
+### Utility
 - `/api/ip` - Returns client IP
 - `/api/uuid` - Generate UUID
 - `/api/time` - Current time
@@ -125,7 +125,7 @@ curl https://api.nekoql.com/api/8ball?response=toml
 - `/api/useragent` - Parse UA
 - `/api/qr` - QR code
 
-### 😂 Memes / Internet
+### Memes / Internet
 - `/api/chucknorris` - Chuck Norris joke
 - `/api/insult` - Random insult
 - `/api/compliment` - Random compliment
@@ -137,7 +137,7 @@ curl https://api.nekoql.com/api/8ball?response=toml
 - `/api/wyr` - Would You Rather
 - `/api/dadjoke` - Dad joke
 
-### ✍️ Text / AI-ish
+### Text / AI-ish
 - `/api/reverse` - Reverse text
 - `/api/base64` - Encode/decode Base64
 - `/api/leet` - Convert to leetspeak
@@ -149,7 +149,7 @@ curl https://api.nekoql.com/api/8ball?response=toml
 - `/api/translate` - Translate text
 - `/api/lorem` - Lorem ipsum
 
-## 🏗️ Project Structure
+##  Project Structure
 
 ```
 nekoql/
@@ -171,7 +171,7 @@ nekoql/
 └── README.md
 ```
 
-## 🔧 Development
+## Development
 
 ### Adding New Endpoints
 
@@ -229,7 +229,7 @@ npm run build
 npm start
 ```
 
-## 🎨 Customization
+## Customization
 
 ### Theme Colors
 
@@ -262,7 +262,7 @@ if (format === "xml") {
 }
 ```
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-endpoint`)
@@ -278,20 +278,18 @@ if (format === "xml") {
 - Test with different response formats
 - Follow the existing naming conventions
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Inspired by the cute neko aesthetic
 - Built with modern web technologies
 - Thanks to all the open source contributors
 
-## 🐛 Issues & Support
+## Issues & Support
 
-Found a bug or have a feature request? Please [open an issue](https://github.com/your-username/nekoql/issues)!
+Found a bug or have a feature request? Please [open an issue](https://github.com/RealZppqr/nekoql/issues)!
 
 ---
-
-Made with ❤️ and 🐾 by the nekoQL team
