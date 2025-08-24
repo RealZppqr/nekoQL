@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: 'Inter', system-ui, sans-serif;
+    background: linear-gradient(135deg, #fdf2f8 0%, #faf5ff 100%);
+    min-height: 100vh;
+  }
+}
+
+@layer components {
+  .neko-card {
+    @apply bg-white/80 backdrop-blur-sm border border-neko-200 rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300;
+  }
+  
+  .neko-button {
+    @apply bg-gradient-to-r from-neko-500 to-purrple-500 text-white px-6 py-3 rounded-xl font-medium hover:from-neko-600 hover:to-purrple-600 transition-all duration-300 shadow-lg hover:shadow-xl;
+  }
+  
+  .neko-button-secondary {
+    @apply bg-white/80 text-neko-700 border border-neko-200 px-6 py-3 rounded-xl font-medium hover:bg-white hover:border-neko-300 transition-all duration-300;
+  }
+  
+  .neko-badge {
+    @apply bg-neko-100 text-neko-700 px-3 py-1 rounded-full text-sm font-medium;
+  }
+}
