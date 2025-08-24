@@ -12,6 +12,24 @@ import { handler as ipHandler, documentation as ipDoc } from "./endpoints/ip";
 import { handler as uuidHandler, documentation as uuidDoc } from "./endpoints/uuid";
 import { handler as flipHandler, documentation as flipDoc } from "./endpoints/flip";
 import { handler as timeHandler, documentation as timeDoc } from "./endpoints/time";
+import { handler as rpsHandler, documentation as rpsDoc } from "./endpoints/rps";
+import { handler as truthHandler, documentation as truthDoc } from "./endpoints/truth";
+import { handler as dareHandler, documentation as dareDoc } from "./endpoints/dare";
+import { handler as jokeHandler, documentation as jokeDoc } from "./endpoints/joke";
+import { handler as catfactHandler, documentation as catfactDoc } from "./endpoints/catfact";
+import { handler as dogHandler, documentation as dogDoc } from "./endpoints/dog";
+import { handler as dogfactHandler, documentation as dogfactDoc } from "./endpoints/dogfact";
+import { handler as dateHandler, documentation as dateDoc } from "./endpoints/date";
+import { handler as colorHandler, documentation as colorDoc } from "./endpoints/color";
+import { handler as chucknorrisHandler, documentation as chucknorrisDoc } from "./endpoints/chucknorris";
+import { handler as insultHandler, documentation as insultDoc } from "./endpoints/insult";
+import { handler as complimentHandler, documentation as complimentDoc } from "./endpoints/compliment";
+import { handler as reverseHandler, documentation as reverseDoc } from "./endpoints/reverse";
+import { handler as base64Handler, documentation as base64Doc } from "./endpoints/base64";
+import { handler as loremHandler, documentation as loremDoc } from "./endpoints/lorem";
+import { handler as memeHandler, documentation as memeDoc } from "./endpoints/meme";
+import { handler as showerthoughtHandler, documentation as showerthoughtDoc } from "./endpoints/showerthought";
+import { handler as quoteHandler, documentation as quoteDoc } from "./endpoints/quote";
 
 const app = express();
 const PORT = process.env.PORT || 3001;
@@ -31,7 +49,25 @@ const endpoints = [
   ipDoc,
   uuidDoc,
   flipDoc,
-  timeDoc
+  timeDoc,
+  rpsDoc,
+  truthDoc,
+  dareDoc,
+  jokeDoc,
+  catfactDoc,
+  dogDoc,
+  dogfactDoc,
+  dateDoc,
+  colorDoc,
+  chucknorrisDoc,
+  insultDoc,
+  complimentDoc,
+  reverseDoc,
+  base64Doc,
+  loremDoc,
+  memeDoc,
+  showerthoughtDoc,
+  quoteDoc
 ];
 
 // API Routes
@@ -42,6 +78,24 @@ app.get("/api/ip", ipHandler);
 app.get("/api/uuid", uuidHandler);
 app.get("/api/flip", flipHandler);
 app.get("/api/time", timeHandler);
+app.get("/api/rps", rpsHandler);
+app.get("/api/truth", truthHandler);
+app.get("/api/dare", dareHandler);
+app.get("/api/joke", jokeHandler);
+app.get("/api/catfact", catfactHandler);
+app.get("/api/dog", dogHandler);
+app.get("/api/dogfact", dogfactHandler);
+app.get("/api/date", dateHandler);
+app.get("/api/color", colorHandler);
+app.get("/api/chucknorris", chucknorrisHandler);
+app.get("/api/insult", insultHandler);
+app.get("/api/compliment", complimentHandler);
+app.get("/api/reverse", reverseHandler);
+app.get("/api/base64", base64Handler);
+app.get("/api/lorem", loremHandler);
+app.get("/api/meme", memeHandler);
+app.get("/api/showerthought", showerthoughtHandler);
+app.get("/api/quote", quoteHandler);
 
 // Health check
 app.get("/api/health", (req, res) => {
